@@ -9,13 +9,13 @@ public class Soal4{
 
         System.out.println("Daftar film bioskop");
         for (int i = 0; i < 5; i++) {
-            System.out.print("Masukkan nama film " + i + ": ");
+            System.out.print("Masukkan nama film " + (i+1) + ": ");
             films[i] = sc.nextLine();
         }
 
         System.out.println("\nFilm yang ingin ditonton:");
         for (int i = 0; i < 5; i++) {
-            System.out.println(i + ". " + films[i]);
+            System.out.println((i+1) + ". " + films[i]);
         }
     }
 }
